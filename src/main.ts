@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { plugin as VueTippy } from 'vue-tippy'
+import 'uno.css'
 
 import 'tippy.js/dist/tippy.css' // optional for styling
 import 'tippy.js/animations/shift-toward-subtle.css'

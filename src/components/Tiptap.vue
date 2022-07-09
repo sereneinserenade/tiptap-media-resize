@@ -1,18 +1,28 @@
 <template>
   <section class="py-4 flex flex-col gap-6 container mx-auto w-[65ch]">
-    <section class="flex gap-4">
-      <button class="btn btn-sm" @click="addImage">
-        Add Image
-      </button>
+    <section class="flex justify-between">
+      <section class="flex gap-2">
+        <button class="btn btn-sm" @click="addImage">
+          Add Image
+        </button>
 
-      <button class="btn btn-sm" @click="addVideo">
-        Add Video
-      </button>
+        <button class="btn btn-sm" @click="addVideo">
+          Add Video
+        </button>
 
-      <button class="btn btn-sm" @click="consoleHtml">
-        Console Html
-      </button>
+        <!-- <button class="btn btn-sm" @click="consoleHtml">
+          Console Html
+        </button> -->
+      </section>
+      <section class="flex gap-2">
+        <a class="btn btn-sm btn-outline btn-secondary" href="https://github.com/sponsors/sereneinserenade" >
+          <i class="i-mdi-heart" /> &nbsp; Support My Work
+        </a>
 
+        <a class="btn btn-sm" @click="consoleHtml">
+          <i class="i-mdi-github" /> &nbsp; Github Repo
+        </a>
+      </section>
     </section>
 
     <editor-content :editor="editor" />
