@@ -23,14 +23,14 @@ jobs:
         id: gimme_cache
         with:
           path: '**/node_modules'
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
       - name: Install dependencies
         if: steps.gimme_cache.outputs.cache-hit == false
-        run: npm install
+        run: yarn
 
       - name: Build 🔧
-        run: npm run build
+        run: yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.0
