@@ -19,7 +19,7 @@
           <i class="i-mdi-heart" /> &nbsp; Support My Work
         </a>
 
-        <a class="btn btn-sm" @click="consoleHtml">
+        <a class="btn btn-sm" href="https://github.com/sereneinserenade/tiptap-media-resize">
           <i class="i-mdi-github" /> &nbsp; Github Repo
         </a>
       </section>
