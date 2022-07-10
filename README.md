@@ -31,7 +31,7 @@ If you're making money from this extension or as gesture, it'd be very kind of y
 Clone the repo, do something, make a PR(or not). You know what's the drill. Looking forward to your PRs, you amazing devs.
 
 ## Stargazers - thank you all!
-[![Stargazers repo roster for @sereneinserenade/tiptap-media-resize](https://reporoster.com/stars/dark/sereneinserenade/tiptap-media-resize)](https://github.com/sereneinserenade/tiptap-comment-extension/stargazers)
+[![Stargazers repo roster for @sereneinserenade/tiptap-media-resize](https://reporoster.com/stars/dark/sereneinserenade/tiptap-media-resize)](https://github.com/sereneinserenade/tiptap-media-resize/stargazers)
 
 <details>
   <summary> Vue 3 + TypeScript + Vite </summary>
