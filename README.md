@@ -1,7 +1,7 @@
 <h1 align="center"> tiptap-media-resize </h1>
 
   ![GitHub Sponsors](https://img.shields.io/github/sponsors/sereneinserenade?color=%23bf3989&label=Sponsor%20Me&style=for-the-badge)
-  ![GitHub Repo stars](https://img.shields.io/github/stars/sereneinserenade/tiptap-comment-extension?label=Star%20the%20Repo&style=for-the-badge)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/sereneinserenade/tiptap-media-resize?label=Star%20the%20Repo&style=for-the-badge)
   DM Me on Discord - sereneinserenade#4869
 
 
